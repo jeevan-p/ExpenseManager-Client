@@ -3,16 +3,30 @@
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babelify": "^10.0.0",
+    "browser-sync": "^2.26.3",
+    "browserify": "^16.2.3",
+    "express": "^4.16.4",
+    "gulp": "^4.0.0",
+    "gulp-rename": "^1.4.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-scripts": "2.1.2"
+    "vinyl-source-stream": "^2.0.0",
+    "browserify-css": "^0.14.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "node server.js",
+    "build": "gulp build"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
   },
   "repository": {
     "type": "git",
