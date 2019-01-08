@@ -19,7 +19,7 @@ gulp.task('build',function(){
 
 gulp.task('watch',function(){
     browserSync.init({
-        server:"./dist"
+        server:"./"
     })
     gulp.watch('./src/**/*.jsx', gulp.series('build')).on('change',browserSync.reload);
 });
