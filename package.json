@@ -19,8 +19,7 @@
     "browserify-css": "^0.14.0"
   },
   "scripts": {
-    "start": "node server.js",
-    "build": "gulp"
+    "start": "gulp"
   },
   "babel": {
     "presets": [
