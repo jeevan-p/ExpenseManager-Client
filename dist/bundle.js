@@ -23928,7 +23928,7 @@ function (_Component) {
   _createClass(App, [{
     key: "render",
     value: function render() {
-      return _react.default.createElement("div", null, "React Page built using GULP --- --- ---");
+      return _react.default.createElement("div", null, "React Page built using GULP --- --- --->");
     }
   }]);
 

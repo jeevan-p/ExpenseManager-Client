@@ -4,7 +4,6 @@ var gulp = require('gulp'),
     rename = require('gulp-rename');
     source = require('vinyl-source-stream');
     browserifyCss = require('browserify-css');
-    gulpSequence = require('gulp-sequence');
     browserSync = require('browser-sync').create();
 
 gulp.task('build',function(){
@@ -24,3 +23,5 @@ gulp.task('watch',function(){
     })
     gulp.watch('./src/**/*.jsx', gulp.series('build')).on('change',browserSync.reload);
 });
+
+gulp.task('default',gulp.series('build','watch'));
