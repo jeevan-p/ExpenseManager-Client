@@ -7,7 +7,7 @@ class App extends Component {
         React Page built using GULP
         ---
         ---
-        --->
+        ---
       </div>
     );
   }
