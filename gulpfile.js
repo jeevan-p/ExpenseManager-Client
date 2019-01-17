@@ -21,7 +21,7 @@ gulp.task('watch',function(){
     browserSync.init({
         server:"./"
     })
-    gulp.watch('./src/**/*.jsx', gulp.series('build')).on('change',browserSync.reload);
+    gulp.watch('./src/**/*.*', gulp.series('build')).on('change',browserSync.reload);
 });
 
 gulp.task('default',gulp.series('build','watch'));

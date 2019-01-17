@@ -1,0 +1,31 @@
+.expense-section {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+    color: grey;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: -20px;
+}
+
+.expense-child {
+    flex-grow: 1;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.right-pad {
+    border-right: 1px solid lightgrey;
+}
+
+.number-positive {
+    color: green;
+    font-size: 30px;
+}
+
+.number-negative {
+    color: red;
+    font-size: 30px;
+}

@@ -24016,7 +24016,7 @@ var _default = App;
 exports.default = _default;
 
 },{"react":11}],19:[function(require,module,exports){
-var css = ".main-div-desktop {\n  width: 100%;\n  background: url(src/images/logo/back1.jpeg) no-repeat center center fixed;\n  background-size: cover;\n}\n"; (require("browserify-css").createStyle(css, { "href": "src/components/Dashboard.css" }, { "insertAt": "bottom" })); module.exports = css;
+var css = ".main-div-desktop {\n  width: 100%;\n}\n"; (require("browserify-css").createStyle(css, { "href": "src/components/Dashboard.css" }, { "insertAt": "bottom" })); module.exports = css;
 },{"browserify-css":1}],20:[function(require,module,exports){
 "use strict";
 
@@ -24148,7 +24148,7 @@ var _default = DashboardContents;
 exports.default = _default;
 
 },{"./DashboardContents.css":21,"./contents/ExpenseSummary.jsx":26,"./contents/Frequent.jsx":28,"react":11}],23:[function(require,module,exports){
-var css = ".header-bar-desktop {\n  padding: 10px;\n  text-align: right;\n  color: white;\n}\n"; (require("browserify-css").createStyle(css, { "href": "src/components/dashboard/HeaderBar.css" }, { "insertAt": "bottom" })); module.exports = css;
+var css = ".header-bar-desktop {\n  padding: 10px;\n  text-align: right;\n  background: url(src/images/logo/back1.jpeg) no-repeat left center;\n  color: white;\n}\n"; (require("browserify-css").createStyle(css, { "href": "src/components/dashboard/HeaderBar.css" }, { "insertAt": "bottom" })); module.exports = css;
 },{"browserify-css":1}],24:[function(require,module,exports){
 "use strict";
 
@@ -24214,7 +24214,7 @@ var _default = HeaderBar;
 exports.default = _default;
 
 },{"./HeaderBar.css":23,"./header/TopBar.jsx":32,"./header/UserBar.jsx":34,"react":11}],25:[function(require,module,exports){
-var css = ".expense-section {\n  display: flex;\n  flex-direction: row;\n  padding-top: 10px;\n  padding-bottom: 10px;\n  font-size: 17px;\n  color: grey;\n  background-color: white;\n  border-radius: 5px;\n  margin-top: -20px;\n}\n.expense-child {\n  flex-grow: 1;\n  text-align: center;\n  padding: 5px 10px;\n}\n.right-pad {\n  border-right: 1px solid lightgrey;\n}\n.number-positive {\n  color: green;\n  font-size: 30px;\n}\n.number-negative {\n  color: red;\n  font-size: 30px;\n}\n"; (require("browserify-css").createStyle(css, { "href": "src/components/dashboard/contents/ExpenseSummary.css" }, { "insertAt": "bottom" })); module.exports = css;
+var css = ".expense-section {\n  display: flex;\n  flex-direction: row;\n  padding-top: 10px;\n  font-size: 17px;\n  color: grey;\n}\n.expense-child {\n  flex-grow: 1;\n  text-align: center;\n  padding: 5px 10px;\n}\n.right-pad {\n  border-right: 1px solid lightgrey;\n}\n.number-positive {\n  color: green;\n  font-size: 30px;\n}\n.number-negative {\n  color: red;\n  font-size: 30px;\n}\n"; (require("browserify-css").createStyle(css, { "href": "src/components/dashboard/contents/ExpenseSummary.css" }, { "insertAt": "bottom" })); module.exports = css;
 },{"browserify-css":1}],26:[function(require,module,exports){
 "use strict";
 
